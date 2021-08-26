@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <title>Gimmnasio "Hercules"</title>
+</head>
+
+<body>
+    <header id="header">
+        <img id="header-img" src="assests/img/logo.png" alt="logoGYM">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#conocenos"><b>Conocenos</b></a></li>
+                <li><a class="nav-link" href="#formulario"><b>Más información</b></a></li>
+                <li><a class="nav-link" href="#precios"><b>Precios</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <br><br><br><br>
+        <section id="conocenos">
+            <article>
+                <h1 class="titlePrincipal">CONOCENOS UN POCO MÁS VIENDO ESTE VIDEO</h1>
+                <div id="content-video">
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/nY8bjJr7Ew0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </article>
+        </section>
+       
+        <section id="mas">
+            <h2 class="titles">FORMULARIO</h2>
+            <p class="descripcion">Dejanos tu información y nosotros nos contactaremos para darte más información a
+                detalle</p>
+            <form id="formulario" action="https://www.freecodecamp.com/email-submit">
+                <div id="content-field">
+                    <div id="campoNombre">
+                        <label for="name" class="label"><b>Nombre completo</b></label><br>
+                        <input class="field" type="text" name="name" id="name" placeholder="Ingrese su nombre completo"
+                            required>
+                    </div>
+                    <div id="campoEmail">
+                        <label for="email" class="label"><b>Ingrese su correo electronico</b></label><br>
+                        <input type="email" class="field" id="email" name="email"
+                            placeholder="Ingrese su correo electronico" required>
+                    </div>
+                </div>
+
+                <div id="content-submit">
+                    <input type="submit" id="submit" value="Enviar Datos">
+                </div>
+            </form>
+        </section>
+        <section id="precios">
+            <article>
+                <h2 class="titles">PAQUETES QUE MANEJAMOS</h2>
+                <div id="contenedor">
+                    <div id="paquete1" class="content-precios">
+                        <img  class="imagePrecio" src="assests/img/basico.png" alt="imagenPaquete Basico">
+                        <h3 class="precio">Basico: $ 300 pesos</h3>
+                        <p class="contenido">Este paquete incluye solo las intalaciones del Gimmnasio y dos asesorias de entrenamiento</p>
+                        <input  class="botonPaquete" type="submit" id="submitPaquete" name="submitPaquete" value="Adquirir Paquete">
+                    </div>
+                    <div id="paquete2" class="content-precios">
+                        <img class="imagePrecio" src="assests/img/avanzado.png" alt="iamgenPaqueteAvanzado">
+                        <h3 class="precio">Avanzado: $ 500 pesos</h3>
+                        <p class="contenido">Este paquete incluye las instalaciones de Gimmnasio y asesoria de entrenamiento durante todo el mes</p>
+                        <input  class="botonPaquete" type="submit" id="submitPaquete" name="ssubmitPaquete" value="Adquirir Paquete">
+                    </div>
+                    <div id="paquete3" class="content-precios">
+                        <img id="imagePremium" class="imagePrecio" src="assests/img/premium.png" alt="imagenPaquetePremium">
+                        <h3 class="precio">Premium: $ 700 pesos</h3>
+                        <p class="contenido">Este paquete incluye las intalciones del Gimnasio, asesoria durante todo el mes y plan nutricional dunrate el mes</p>
+                        <input class="botonPaquete" type="submit" id="submitPaquete" name="submitPaquete" value="Adquirir Paquete">
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main><br>
+    <footer>
+       <p id="piePagina">CopyRight 2021 hecho por Axel Martinez Sanjuan</p>
+    </footer>
+</body>
+
+</html>
