@@ -272,7 +272,6 @@ footer{
         flex-direction:none;
         width: 70%;
     }
-
     #paquete2{
         display:block;
         margin: auto;
@@ -320,7 +319,7 @@ footer{
         grid-template-columns: auto;
     }
     .titlePrincipal{
-        margin-top:37%;
+        margin-top:50%;
         font-size: 15px;
     }
     .titles{
